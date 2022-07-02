@@ -42,3 +42,4 @@ class Solution:
     def containsDuplicate(self, nums) -> bool:
         set_num = set(nums)
         return len(set_num) < len(nums)
+
